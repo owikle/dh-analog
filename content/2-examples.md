@@ -1,7 +1,11 @@
 ---
-title: Start
-nav: true
+title: Examples
+nav: false
 ---
+
+# Six Degrees of Francis Bacon
+
+# Topic Modeling (Hearings)
 
 # Get Started
 

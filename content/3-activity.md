@@ -1,7 +1,11 @@
 ---
-title: Content
+title: Activity
 nav: true
 ---
+
+# A Practical Analog Example: Topic Modeling by Hand
+
+{% include figure.html img="personmine2.jpg" alt="intro image here" width="25%" %}
 
 # Create Lesson Content
 
