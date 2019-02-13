@@ -3,79 +3,47 @@ title: Activity
 nav: true
 ---
 
-# A Practical Analog Example: Topic Modeling by Hand
+# Classroom Activity
 
-{% include figure.html img="personmine2.jpg" alt="intro image here" width="25%" %}
+---
 
-# Create Lesson Content
+## Why Use Text Mining in Your Teaching?
+- Like a lot of other DH tools, Text Mining can:
+    - Get students to think differently by stepping outside the usual routine of traditional reading, writing
+    - Provide students with an opportunity to get familiar with technical tools and methodologies
 
-Edit the lesson Markdown files to create content pages.
+## Why analog?
+- Comprehensive coverage of DH tools often requires access to a wide variety of technology
+    - The settings needed for teaching these tools can be difficult to create
+    - Or maybe you just want to keep technology out of the classroom
 
-[Markdown](https://daringfireball.net/projects/markdown/) is a standard to [simplify writing](https://evanwill.github.io/_drafts/notes/writing-markdown.html) content for the web. 
-[GitHub markdown flavor](https://help.github.com/articles/basic-writing-and-formatting-syntax/) can be used any where on GitHub and in Jekyll.
-The basics are intuitive, you can learn in about a minute!
-See [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-minute.html) to get started.
+- *Digital Methodologies*, with or without computers, can get us to think in refreshing new ways...
+    - Because there is less to learn from a software perspective, the learning objective is easier to achieve
+    - There is an added benefit of stripping away the speed of a computer and emphasizing what the digital tool actually does
+    - A single-session digital methodology activity is a low-risk way to try out Digital Humanities: it's unlikely to have any long-term negative effects for the class, but instructors will still capitalize on the positive effects of an activity change
 
-When creating content pages:
+---
 
-- create/edit content pages in the `content` directory.
-- to include a page in the nav, add `nav: true` to the file's yml front matter.
-- the `title:` value will appear in the nav, sorted in the order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
-- the default layout does not add `title` to the page, so that it can be a short for the nav. So add a title in the Markdown content.
+## This activity will:
+    
+- Incorporate collaboration and close reading to identify themes across text 
 
-## Components Includes
+- Provide students with directed rules for reading (shift the object of students' engagement to more closely parallel the instructor's object)
 
-`workshop-template-b` contains a series of [Liquid "includes"](https://jekyllrb.com/docs/includes/) to add basic [Bootstrap components](https://getbootstrap.com/docs/4.1/components/) to your Markdown content.
-Examples below demonstrate the includes.
+- **Ultimately, this type of activity helps students develop the psychological tools that underpin the disciplinary practices common to a professional scholar**
 
---------
+---
 
-#### Figures 
+# A Practical Analog Example: Text Mining by Hand
 
-`{% raw %}{% include figure.html img="uidaho-workshop.jpg" alt="workshop scene" caption="Library workshops!" width="75%" %}{% endraw %}`
-
-{% include figure.html img="uidaho-workshop.jpg" alt="workshop scene" caption="Library workshops!" width="75%" %}
-
-----------
-
-#### Alerts
-
-`{% raw %}{% include alert.md text="This is a Bootstrap [Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}{% endraw %}`
-
-{% include alert.md text="This is a [Bootstrap Alert](https://getbootstrap.com/docs/4.1/components/alerts/)" align="center" color="success" %}
-
------------
-
-#### Link Buttons 
-
-`{% raw %}{% include button.md text="Bootstrap Docs" link="https://getbootstrap.com/docs/4.1/components/buttons/" color="info" %}{% endraw %}`
-
-{% include button.md text="Bootstrap Docs" link="https://getbootstrap.com/docs/4.1/components/buttons/" color="info" %}
-
----------
-
-#### Cards
-
-```{% raw %}
-{% capture text %}
-1. Can add more complex text using markdown.
-2. Use a Liquid capture to create the text.
-3. It magically becomes a [Bootstrap Card](https://getbootstrap.com/docs/4.1/components/card/).
-{% endcapture %}
-{% include card.md text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}{% endraw %}
-```
+{% include figure.html img="personmine2.jpg" alt="intro image here" width="40%" %}
 
 {% capture text %}
-1. Can add more complex text using markdown.
-2. Use a Liquid capture to create the text.
-3. It magically becomes a [Bootstrap Card](https://getbootstrap.com/docs/4.1/components/card/).
+1. Read the short story
+2. Track, by hand, the number of times important `characters` show up
+3. With your group, determine important `themes` in the text
+    3. Track by hand the number of times these important `themes` show up
+4. With your group, use markers and paper to represent the importance of each `character` and `theme`. Distinguish between **size**, **weight**, and **color**
+5. Present the dominant themes and characters that you identified
 {% endcapture %}
-{% include card.md text=text header="Example Card" title="Title example" img="uidaho-workshop.jpg" %}
-
-------------
-
-#### Modal
-
-`{% raw %}{% include modal.md button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}{% endraw %}`
-
-{% include modal.md button="Try Me" color="success" title="Example Modal" text="This is a modal, with little text." %}
+{% include card.md header="Text Mining by Hand" title="Instructions:" text=text %}
