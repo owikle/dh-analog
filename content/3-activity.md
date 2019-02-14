@@ -38,12 +38,14 @@ nav: true
 
 {% include figure.html img="personmine2.jpg" alt="intro image here" width="40%" %}
 
+You can access the reading for this activity <a href="">here</a>.
+
 {% capture text %}
 1. Read the short story
 2. Track, by hand, the number of times important `characters` show up
-3. With your group, determine important `themes` in the text
-    3. Track by hand the number of times these important `themes` show up
-4. With your group, use markers and paper to represent the importance of each `character` and `theme`. Distinguish between **size**, **weight**, and **color**
+3. With your group, determine important `topics (or themes)` in the text
+    3. Track by hand the number of times these important `topics` show up
+4. With your group, use markers and paper to represent the importance of each `character` and `topic`. Distinguish between **size**, **weight**, and/or **color**
 5. Present the dominant themes and characters that you identified
 {% endcapture %}
 {% include card.md header="Text Mining by Hand" title="Instructions:" text=text %}

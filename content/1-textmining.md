@@ -5,21 +5,28 @@ nav: true
 
 # What is Text Mining?
 
+<br>
+
 {% capture text %}
 **A research practice that involves using computer algorithms to discover information in large amounts of unstructured text**
 
-OR
-
+<div class="text-center">OR</div>
+<br>
 **Mathematically rigorous inquiries into the relationship between words in a large corpus of text**
 {% endcapture %}
 {% include card.md text=text %}
 
+{% capture text %}
 *Text mining helps researchers detect patterns and connections in large volumes of textual material, allowing them to draw conclusions from a large body of text that they would not be able to otherwise read, synthesize, and incorporate into their scholarship.*
+{% endcapture %}
+{% include card.md text=text %}
+
 
 Text Mining is often about counting words:
 - Words matter
 - Words hang together in interesting ways
-{% include figure.html img="painting1.jpg" alt="painting" width="50%" %}
+
+{% include figure.html img="painting1.jpg" alt="painting" width="75%" %}
 
 ---
 
@@ -38,60 +45,49 @@ Text Mining is often about counting words:
 
 ---
 
-{% include figure.html img="mine.jpg" alt="mine" width="50%" %}
-
-## Text Mining Vocabulary
-
-*Mining*:
-- Exploratory
-
-*Computational processes*:
-- Machine learning
-- Training corpus
-- Distribution analysis
-
-*Modifying documents for input*:
-- Unstructured Text
-- Corpus
-- Chunks
-- Tokens
+{% include figure.html img="mine.jpg" alt="mine" width="75%" %}
 
 ---
 
 ## A Few Types of Text Mining:
 
-<div class="row">
-    <div class="col-md-12">
-    {% capture text %}
-        - Analyzing a text for a sequence of words
-        - Possible use: Change-over-time analysis
-        - Example: [https://books.google.com/ngrams](https://books.google.com/ngrams){:target='_blank'}
-    {% endcapture %}
-    {% include card.md text=text title="N-grams" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-12">
-    {% capture text %}
-        - Simple approach to analytical partitioning
-        - Elements of data visualization: size, color, distance of words can be used as elements of argumentation
-        - Example:
-    {% endcapture %}
-    {% include card.md text=text title="Word Clouds" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-12">
-    {% capture text %}
-        - Comparing large trends in corpora
-    {% endcapture %}
-    {% include card.md text=text title="Topic Modeling" %}
-    </div>
-</div>
+{% capture text %}
+- Analyzing a text for a sequence of words
+- Possible use: Change-over-time analysis
+- Example: [https://books.google.com/ngrams](https://books.google.com/ngrams){:target='_blank'}
+{% endcapture %}
+{% include card.md text=text title="N-grams" %}
+{% include figure.html img="ngram.jpg" alt="mine" width="100%" %}
+
+{% capture text %}
+- Part-of-speech tagging
+- Possible use: Named-Entity Recognition to extract and categorize entities such as person names, organizations, etc.
+- Example: [Six Degrees of Francis Bacon](http://www.sixdegreesoffrancisbacon.com/?ids=10000473&min_confidence=60&type=network){:target='_blank'}
+{% endcapture %}
+{% include card.md text=text title="Natural Language Processing" %}
+
+{% capture text %}
+- Simple approach to analytical partitioning
+- Elements of data visualization: size, color, distance of words can be used as elements of argumentation
+- Example: [WordItOut](https://worditout.com/word-cloud/create){:target='_blank'}
+{% endcapture %}
+{% include card.md text=text title="Word Clouds" %}
+{% include figure.html img="wordcloud.jpg" alt="mine" width="100%" %}
+    
+{% capture text %}
+- Comparing large trends in corpora
+- Iterative algorithm identifies a set of topics related to a set of documents
+- Example: [Mining the Dispatch](http://dsl.richmond.edu/dispatch/pages/intro){:target='_blank'}
+{% endcapture %}
+{% include card.md text=text title="Topic Modeling" %}
+   
+{% include figure.html img="text.jpg" alt="mine" width="75%" %}
+{% include figure.html img="topics.jpg" alt="mine" width="100%" %}
+{% include figure.html img="soundtopic.jpg" alt="mine" width="100%" %}
 
 ---
 
-## Limitation and Errors in Text Mining:
+## Limitations and Errors in Text Mining:
 {% capture text %}
 1. Be cognizant of your question as you gather data
 - Data lies (if it's collected in inappropriate ways). What's in your set?
