@@ -59,7 +59,7 @@ Text Mining is often about **counting words**:
 - Example: [Six Degrees of Francis Bacon](http://www.sixdegreesoffrancisbacon.com/?ids=10000473&min_confidence=60&type=network){:target='_blank'}
 {% endcapture %}
 {% include card.md text=text title="Named Entity Recognition" %}
-{% include figure.html img="nlp.jpg" caption="Named Entity Recognition" width="100%" %}
+{% include figure.html img="NLP.jpg" caption="Named Entity Recognition" width="100%" %}
 
 {% capture text %}
 - Simple approach to analytical partitioning
