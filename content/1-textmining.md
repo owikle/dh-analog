@@ -2,25 +2,21 @@
 title: Text-Mining
 nav: true
 ---
+<br>
 
 # What is Text Mining?
 
 <br>
 
-{% capture text %}
-**Mathematically rigorous inquiries into the relationship between words in a large corpus of text**
-{% endcapture %}
-{% include card.md text=text %}
+Mathematically rigorous inquiries into the relationship between words in a large corpus of text.
 
-{% capture text %}
-*Text mining helps researchers detect patterns and connections in large volumes of textual material, allowing them to draw conclusions from a large body of text that they would not be able to otherwise read, synthesize, and incorporate into their scholarship.*
-{% endcapture %}
-{% include card.md text=text %}
+- Text mining helps researchers detect patterns and connections in large volumes of textual material, allowing them to draw conclusions from a large body of text that they would not be able to otherwise read, synthesize, and incorporate into their scholarship.
 
+{% include figure.html img="openbook.jpg" alt="too many books" width="80%" %}
 
 Text Mining is often about counting words:
 - Words matter
-- Words hang together in interesting ways
+- Words hang together in interesting ways...
 
 {% include figure.html img="painting1.jpg" alt="painting" width="75%" %}
 
@@ -47,29 +43,31 @@ Text Mining is often about counting words:
 
 ## A Few Types of Text Mining:
 
+<br>
+
 {% capture text %}
 - Analyzing a text for a sequence of words
 - Possible use: Change-over-time analysis
 - Example: [https://books.google.com/ngrams](https://books.google.com/ngrams){:target='_blank'}
 {% endcapture %}
 {% include card.md text=text title="N-grams" %}
-{% include figure.html img="ngram.jpg" alt="mine" width="100%" %}
+{% include figure.html img="ngram.jpg" alt="mine" caption="Google Books Ngram Viewer" width="100%" %}
 
 {% capture text %}
 - Part-of-speech tagging
-- Possible use: Named-Entity Recognition to extract and categorize entities such as person names, organizations, etc.
+- Possible use: Extract and categorize entities such as person names, organizations, etc.
 - Example: [Six Degrees of Francis Bacon](http://www.sixdegreesoffrancisbacon.com/?ids=10000473&min_confidence=60&type=network){:target='_blank'}
 {% endcapture %}
-{% include card.md text=text title="Natural Language Processing" %}
+{% include card.md text=text title="Named Entity Recognition" %}
+{% include figure.html img="nlp.jpg" caption="Named Entity Recognition" width="100%" %}
 
 {% capture text %}
 - Simple approach to analytical partitioning
 - Elements of data visualization: size, color, distance of words can be used as elements of argumentation
-- Example: [TagCrowd.com](https://tagcrowd.com/){:target='_blank'}
-- Try making a word cloud with <a href="../data/nightingale_text.txt" target="blank">this text</a>
+- Example: [TagCrowd.com](https://tagcrowd.com/){:target='_blank'} (try it using <a href="../data/nightingale_text.txt" target="blank">this text</a>)
 {% endcapture %}
 {% include card.md text=text title="Word Clouds" %}
-{% include figure.html img="wordcloud.jpg" alt="mine" width="100%" %}
+{% include figure.html img="wordcloud.jpg" alt="wordcloud" caption="A word cloud made with <a target='_blank' href='https://voyant-tools.org/'>Voyant Tools</a>" width="100%" %}
     
 {% capture text %}
 - Comparing large trends in corpora
