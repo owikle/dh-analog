@@ -86,7 +86,7 @@ Text Mining is often about **counting words**:
 {% capture text %}
 1. Be cognizant of your question as you gather data
 - Data lies (if it's collected in inappropriate ways). What's in your set?
-- Data from NY and LA between 1920-1940 and 200-2010 can't be used to make claims about patterns in the US between 1900 and 2010
+- Data from NY and LA between 1920-1940 and 2000-2010 can't be used to make claims about patterns in the US between 1900 and 2010
 
 2. Be aware of the limits of text mining
 - You need computer readable files
