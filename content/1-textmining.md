@@ -10,11 +10,11 @@ nav: true
 
 Mathematically rigorous inquiries into the relationship between words in a large corpus of text.
 
-- Text mining helps researchers detect patterns and connections in large volumes of textual material, allowing them to draw conclusions from a large body of text that they would not be able to otherwise read, synthesize, and incorporate into their scholarship.
+- Text mining helps researchers detect **patterns** and **connections** in large volumes of textual material, allowing them to draw conclusions from a **large body of text** that they would not be able to otherwise read, synthesize, and incorporate into their scholarship.
 
 {% include figure.html img="openbook.jpg" alt="too many books" width="80%" %}
 
-Text Mining is often about counting words:
+Text Mining is often about **counting words**:
 - Words matter
 - Words hang together in interesting ways...
 
@@ -24,13 +24,13 @@ Text Mining is often about counting words:
 
 ## Text Mining involves pattern matching:
 
-- Identify similarities in a large corpus
-    - Overarching trends across a whole set
+- Identify **similarities** in a large corpus
+    - Overarching trends across a whole set of texts
     - Association within sets
     - Categorization of new items being added to a set
 
-- Identify differences
-    - Outliers and anomalies
+- Identify **differences**
+    - Outliers and anomalies between texts
 
 - Combine the two
     - Clusters of similar groups with indications of outlier groups
@@ -64,7 +64,7 @@ Text Mining is often about counting words:
 {% capture text %}
 - Simple approach to analytical partitioning
 - Elements of data visualization: size, color, distance of words can be used as elements of argumentation
-- Example: [TagCrowd.com](https://tagcrowd.com/){:target='_blank'} (try it using <a href="../data/nightingale_text.txt" target="blank">this text</a>)
+- Example: [TagCrowd.com](https://tagcrowd.com/){:target='_blank'} or [WordItOut](https://worditout.com/word-cloud/create){:target='_blank'} (try it using <a href="../data/nightingale_text.txt" target="blank">this text</a>)
 {% endcapture %}
 {% include card.md text=text title="Word Clouds" %}
 {% include figure.html img="wordcloud.jpg" alt="wordcloud" caption="A word cloud made with <a target='_blank' href='https://voyant-tools.org/'>Voyant Tools</a>" width="100%" %}
@@ -88,10 +88,10 @@ Text Mining is often about counting words:
 - Data lies (if it's collected in inappropriate ways). What's in your set?
 - Data from NY and LA between 1920-1940 and 200-2010 can't be used to make claims about patterns in the US between 1900 and 2010
 
-2. Be aware of the limits of data mining
+2. Be aware of the limits of text mining
 - You need computer readable files
 
 3. Be aware of what you can munge
-- If your transcription/OCR always turns the word "like" into the word "lilce"... consistency in errors is still consistency
+- If your transcription/OCR ([Optical Character Recognition](https://en.wikipedia.org/wiki/Optical_character_recognition){:target='_blank'}) always turns the word "like" into the word "lilce"... consistency in errors is still consistency
 {% endcapture %}
 {% include card.md text=text %}

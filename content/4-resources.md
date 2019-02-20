@@ -26,6 +26,7 @@ nav: true
 {% capture text %}
 - [Voyant](https://voyant-tools.org/)
 - [Concordle](https://folk.uib.no/nfylk/concordle/)
+- [Text Analysis for Writers](https://dcnb.github.io/text-analysis-for-writers/)
 - [Word Cloud + Topic Modeling](https://dhs.stanford.edu/algorithmic-literacy/using-word-clouds-for-topic-modeling-results/)
 {% endcapture %}
 {% include card.md text=text header="Text Analysis and Visualizations" %}
