@@ -38,7 +38,7 @@ nav: true
 
 {% include figure.html img="personmine2.jpg" alt="intro image here" width="40%" %}
 
-You can access the reading for this activity <a href="">here</a>.
+You can access the reading for this activity <a href="http://www.online-literature.com/wilde/178/" target="_blank">here</a>.
 
 {% capture text %}
 1. Read the short story

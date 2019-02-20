@@ -8,10 +8,6 @@ nav: true
 <br>
 
 {% capture text %}
-**A research practice that involves using computer algorithms to discover information in large amounts of unstructured text**
-
-<div class="text-center">OR</div>
-<br>
 **Mathematically rigorous inquiries into the relationship between words in a large corpus of text**
 {% endcapture %}
 {% include card.md text=text %}
@@ -69,7 +65,8 @@ Text Mining is often about counting words:
 {% capture text %}
 - Simple approach to analytical partitioning
 - Elements of data visualization: size, color, distance of words can be used as elements of argumentation
-- Example: [WordItOut](https://worditout.com/word-cloud/create){:target='_blank'}
+- Example: [TagCrowd.com](https://tagcrowd.com/){:target='_blank'}
+- Try making a word cloud with <a href="../data/nightingale_text.txt" target="blank">this text</a>
 {% endcapture %}
 {% include card.md text=text title="Word Clouds" %}
 {% include figure.html img="wordcloud.jpg" alt="mine" width="100%" %}
